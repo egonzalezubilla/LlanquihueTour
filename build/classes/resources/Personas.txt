@@ -1,0 +1,11 @@
+19888999-4;Elena;Morales;944455522;Colaborador;Hotel Arauco
+11000111-6;Carlos;Sepulveda;911122233;Empleado;RRHH
+17333444-7;Sofia;Herrera;966677788;Colaborador;Buses Caupolican
+25666777-2;Jorge;Valenzuela;988899900;Empleado;Gerencia
+12345678-9;Juan;Gonzalez;987654321;Empleado;Aseo
+15678901-2;Maria;Curamil;912345678;Colaborador;South Rafting
+20111222-5;Pedro;Rojas;955512345;Empleado;Tours
+18444555-0;Ana;Perez;977788990;Empleado;Guia
+9876543-1;Lautaro;Silva;933344455;Colaborador;Hotel Villarica
+23555666-8;Carmen;Díaz;922266677;Empleado;RRHH
+14222333-3;Jose;Soto;999900011;Colaborador;Termas Huilo-Huilo

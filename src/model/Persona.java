@@ -1,54 +1,56 @@
-
 package model;
 
 /**
- *Representa a una persona que esta relacionada con LlanquihueTour
+ * Representa a una persona que esta relacionada con LlanquihueTour
  *
- * 
+ *
  */
 public class Persona {
+
+    private String rut;
     private String nombre;
     private String apellido;
-    private String rut;
     private int telefono;
     private Direccion direccion;
 
-public Persona () {    
-}    
-    
-/**
- * Constructor de la clase Persona
- * 
- * @param nombre nombre la persona
- * @param apellido apellido de la persona
- * @param rut Rut de la persona
- * @param telefono telefono asociado a la persona
- * @param direccion direccion asociada a la persona
- */    
-    
-    public Persona(String nombre, String apellido, String rut, int telefono, Direccion direccion) {
+    public Persona() {
+    }
+
+    /**
+     * Constructor de la clase Persona
+     *
+     * @param rut Rut de la persona
+     * @param nombre nombre la persona
+     * @param apellido apellido de la persona
+     * @param telefono telefono asociado a la persona
+     * @param direccion direccion asociada a la persona
+     */
+    public Persona(String rut, String nombre, String apellido, int telefono, Direccion direccion) {
+        this.rut = rut;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.rut = rut;
         this.telefono = telefono;
         this.direccion = direccion;
     }
 
-/**
- * Muestra la informacion completa de la persona
- * 
- * @return muestra la informacion formateada como texto
- */    
-    
+    /**
+     * Muestra la informacion completa de la persona
+     *
+     * @return muestra la informacion formateada como texto
+     */
     @Override
     public String toString() {
-        return "---- INFORMACION DE LA PERSONA ----\n\n" +
-               "Nombre      : " + nombre + " " + apellido + "\n" +
-               "RUT         : " + rut + "\n" +
-               "Telefono    : " + telefono + "\n" +
-               "Direccion   : " + direccion.toString();
-    }               
-    
+        return "\n---- INFORMACION DE LA PERSONA ----\n\n"
+                + "Nombre      : " + nombre + " " + apellido + "\n"
+                + "RUT         : " + rut + "\n"
+                + "Telefono    : " + telefono + "\n"
+                + direccion.toString();
+    }
+
+    public String getTipo() {
+        return "Desconocido";
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -88,7 +90,5 @@ public Persona () {
     public void setDireccion(Direccion direccion) {
         this.direccion = direccion;
     }
-    
-    
-    
+
 }

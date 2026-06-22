@@ -1,106 +1,40 @@
-Evaluación Sumativa 1 - Programación Orientado a Objetos I
+Evaluación Sumativa 2 - Programación Orientada a Objetos I
 
 
+👤 Autor del proyecto
+Nombre completo: Elías González Ubilla
 
-\## 👤 Autor del proyecto
+Carrera: Analista Programador
 
-\- \*\*Nombre completo:\*\* Elías González Ubilla
+Sede: Sede Online
 
-\- \*\*Carrera:\*\* Analista Programador
+📘 Descripción del proyecto
+Este proyecto, denominado LlanquihueTour, es una aplicación desarrollada en Java enfocada en la gestión y persistencia de datos. El sistema implementa la lectura de archivos de texto (direcciones.txt y personas.txt) para instanciar objetos y almacenarlos en estructuras ArrayList. La aplicación permite al usuario interactuar mediante un menú en consola para visualizar el registro completo o filtrar personas según su rol (Empleado o Colaborador), demostrando el uso de polimorfismo y buena gestión de datos.
 
-\- \*\*Sede:\*\* Sede Online
-
-
-
-\---
-
-
-
-\## 📘 Descripción general del sistema
-
-Este proyecto corresponde a la Evaluación sumativa 1 de la asignatura de Programación Orientada a Objetos. corresponde a una aplicación desarrollada en Java aplicando los principios de encapsulamiento, composición y herencia.
-
-El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
-
-
-
-\---
-
-
-
-\## 🧱 Estructura general del proyecto
-
-
-
-```plaintext
-
+🧱 Estructura del proyecto
 📁 src/
 
-├── app/         # Clase principal con el método main
+├── data/        # Contiene GestorDatos, encargado de la lógica de persistencia y lectura de archivos.
 
-├── model/       # Clases de dominio (Direccion, Persona, Empleado, Colaborador)
+├── model/       # Contiene las clases Direccion, Persona (clase base), Empleado y Colaborador.
 
+├── resources/   # Carpeta que almacena los archivos de datos (direcciones.txt y personas.txt).
 
+├── util/        # Contiene la clase Validador para el tratamiento de datos.
 
-````
+└── ui/          # Contiene la clase Main, el punto de entrada y gestor del menú interactivo.
 
+⚙️ Cómo ejecutar el proyecto
+1.  Clona el repositorio: https://github.com/egonzalezubilla/LlanquihueTour.git
+2.  Abre el proyecto utilizando **Apache NetBeans**.
+3.  Localiza y ejecuta el archivo `Main.java` dentro del paquete `ui`.
 
+---
 
-\---
+**Repositorio GitHub:** [https://github.com/egonzalezubilla/LlanquihueTour.git]
 
-
-
-
-
-
-
-\## ⚙️ Instrucciones para clonar y ejecutar el proyecto
-
-
-
-1\. Clona el repositorio desde GitHub:
-
-
-
-```bash
-
-git clone https://github.com/egonzalezubilla/LlanquihueTour.git
-
-```
-
-
-
-2\. Abre el proyecto en Apache NetBeans.
-
-
-
-3\. Ejecuta el archivo `Main.java` desde el paquete `app`.
-
-
-
-
-
-\---
-
-
-
-\*\*Repositorio GitHub:\*\* \\https://github.com/egonzalezubilla/LlanquihueTour.git
-
-\*\*Fecha de entrega:\*\* \\\[08/06/2026]
-
-
-
-\---
-
-
+**Fecha de entrega:** 22/06/2026
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones
 
-
-
-
-
-
-
-
-
+---

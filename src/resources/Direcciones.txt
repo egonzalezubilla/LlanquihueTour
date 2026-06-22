@@ -1,0 +1,11 @@
+12345678-9;Calle Orion;452;Temuco
+15678901-2;Avenida Centauro;1230;Pucon
+20111222-5;Pasaje Pegaso;89;Villarrica
+18444555-0;Calle Andromeda;3400;Angol
+9876543-1;Avenida Casiopea;567;Lautaro
+23555666-8;Pasaje Escorpio;912;Victoria
+14222333-3;Calle Geminis;150;Curarrehue
+19888999-4;Avenida Draco;2205;Traiguen
+11000111-6;Pasaje Fenix;777;Nueva Imperial
+17333444-7;Calle Leo;890;Gorbea
+25666777-2;Avenida Tucan;4120;Lonquimay
